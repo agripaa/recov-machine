@@ -1,0 +1,36 @@
+names:
+- Excavator
+- Gloves
+- Hardhatn
+- Ladder
+- Mask
+- NO-Hardhat
+- NO-Mask
+- NO-Safety Vest
+- Person
+- SUV
+- Safety Cone
+- Safety Vest
+- bus
+- dump truck
+- fire hydrant
+- machinery
+- mini-van
+- sedan
+- semi
+- trailer
+- truck
+- truck and trailer
+- van
+- vehicle
+- wheel loader
+nc: 25
+roboflow:
+  license: CC BY 4.0
+  project: construction-site-safety
+  url: https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety/dataset/30
+  version: 30
+  workspace: roboflow-universe-projects
+test: ./dataset/test/images
+train: ./dataset/train/images
+val: ./dataset/valid/images

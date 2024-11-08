@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO('best.pt')
 
 # Evaluasi model pada dataset validasi untuk menghitung mAP
-metrics = model.val(data='path/to/data.yaml')  # Path ke file YAML dataset
+metrics = model.val(data='data.yaml')  # Path ke file YAML dataset
 
 # Menampilkan hasil mAP
 print(f"mAP@0.5: {metrics['metrics/mAP50']:.3f}")
